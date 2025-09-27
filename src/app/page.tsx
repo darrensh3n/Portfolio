@@ -4,13 +4,10 @@ import FloatingToolbar from './components/FloatingToolbar';
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-sky-100 via-blue-50 to-teal-100 dark:from-slate-800 dark:via-blue-900 dark:to-teal-900">
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-64 pb-12">
         {/* Hero Section */}
         <div className="text-center mb-16">
           <div className="mb-8">
-            <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-r from-cyan-400 via-blue-500 to-teal-500 rounded-full flex items-center justify-center shadow-lg">
-              <span className="text-4xl font-bold text-white">🏖️</span>
-            </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
               Darren Shen
             </h1>

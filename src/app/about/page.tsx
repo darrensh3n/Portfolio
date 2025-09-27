@@ -17,17 +17,25 @@ export default function About() {
     switch (activeTab) {
       case 'work':
         return (
-          <div className="space-y-8">
-            <div className="border-l-4 border-cyan-500 pl-6">
-              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
-                <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-100">
-                  Undergraduate Research Assistant
-                </h3>
+          <div className="space-y-6 ml-4">
+            <a 
+              href="https://engineering.sjsu.edu/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block border-l-4 border-cyan-500 pl-4 p-3 rounded-lg hover:bg-cyan-50 dark:hover:bg-slate-700/50 transition-colors duration-200"
+            >
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
+                <div className="flex items-center space-x-3">
+                  <img src="/sjsu_COE.png" alt="SJSU COE" className="w-8 h-8 rounded" />
+                  <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-100">
+                    Undergraduate Research Assistant
+                  </h3>
+                </div>
                 <span className="text-slate-500 dark:text-slate-400 text-sm">
                   Aug 2024 - Present
                 </span>
               </div>
-              <p className="text-slate-600 dark:text-slate-300 font-medium mb-2">
+              <p className="text-slate-600 dark:text-slate-300 font-medium mb-1">
                 SJSU College of Engineering
               </p>
               <ul className="text-slate-600 dark:text-slate-300 space-y-1">
@@ -35,36 +43,52 @@ export default function About() {
                 <li>• Improved testing efficiency (-25% cycles) and login success (+40%) with Kotlin-based tools</li>
                 <li>• Built cross-platform apps with Java, Kotlin Multiplatform, Spring Boot, and gRPC</li>
               </ul>
-            </div>
+            </a>
 
-            <div className="border-l-4 border-teal-500 pl-6">
-              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
-                <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-100">
-                  Software Engineering Intern
-                </h3>
+            <a 
+              href="https://sce.sjsu.edu/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block border-l-4 border-teal-500 pl-4 p-3 rounded-lg hover:bg-teal-50 dark:hover:bg-slate-700/50 transition-colors duration-200"
+            >
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
+                <div className="flex items-center space-x-3">
+                  <img src="/scelogo.png" alt="SCE Society" className="w-8 h-8 rounded" />
+                  <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-100">
+                    Software Engineering Intern
+                  </h3>
+                </div>
                 <span className="text-slate-500 dark:text-slate-400 text-sm">
                   Feb 2025 - Present
                 </span>
               </div>
-              <p className="text-slate-600 dark:text-slate-300 font-medium mb-2">
+              <p className="text-slate-600 dark:text-slate-300 font-medium mb-1">
                 The Software and Computer Engineering Society
               </p>
               <ul className="text-slate-600 dark:text-slate-300 space-y-1">
                 <li>• Developed STM32 firmware for GPIO control and temperature sensing on a six-wing drone</li>
                 <li>• Integrated/tested sensors on STM32 boards for reliable PCB-based system performance</li>
               </ul>
-            </div>
+            </a>
 
-            <div className="border-l-4 border-blue-500 pl-6">
-              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
-                <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-100">
-                  Software Engineering Intern
-                </h3>
+            <a 
+              href="https://www.sjsu.edu/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block border-l-4 border-blue-500 pl-4 p-3 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors duration-200"
+            >
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
+                <div className="flex items-center space-x-3">
+                  <img src="/sjsulogo2.jpeg" alt="SJSU" className="w-8 h-8 rounded" />
+                  <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-100">
+                    Software Engineering Intern
+                  </h3>
+                </div>
                 <span className="text-slate-500 dark:text-slate-400 text-sm">
                   Jun 2025 - Aug 2025
                 </span>
               </div>
-              <p className="text-slate-600 dark:text-slate-300 font-medium mb-2">
+              <p className="text-slate-600 dark:text-slate-300 font-medium mb-1">
                 San Jose State University
               </p>
               <ul className="text-slate-600 dark:text-slate-300 space-y-1">
@@ -72,25 +96,33 @@ export default function About() {
                 <li>• Secured card data with bcrypt hashing and real-time monitoring via SSEs</li>
                 <li>• Deployed the website with Docker</li>
               </ul>
-            </div>
+            </a>
 
-            <div className="border-l-4 border-blue-500 pl-6">
-              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
-                <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-100">
-                  Robotics Engineering Intern
-                </h3>
+            <a 
+              href="https://road2.org/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block border-l-4 border-blue-500 pl-4 p-3 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors duration-200"
+            >
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
+                <div className="flex items-center space-x-3">
+                  <img src="/road2org_logo.jpeg" alt="Road2 Education" className="w-8 h-8 rounded" />
+                  <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-100">
+                    Robotics Engineering Intern
+                  </h3>
+                </div>
                 <span className="text-slate-500 dark:text-slate-400 text-sm">
                   Apr 2023 - May 2024
                 </span>
               </div>
-              <p className="text-slate-600 dark:text-slate-300 font-medium mb-2">
+              <p className="text-slate-600 dark:text-slate-300 font-medium mb-1">
                 Road2 Education Foundation
               </p>
               <ul className="text-slate-600 dark:text-slate-300 space-y-1">
                 <li>• Designed robotic mechanisms in KiCad</li>
                 <li>• Supported technical setup for a Google-sponsored robotics tournament with UC Irvine</li>
               </ul>
-            </div>
+            </a>
           </div>
         );
 
@@ -99,30 +131,72 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-gradient-to-r from-cyan-50 to-blue-50 dark:from-slate-700 dark:to-slate-600 rounded-xl p-6 border border-cyan-200 dark:border-slate-600">
               <div className="flex items-center justify-between mb-3">
-                <h3 className="text-lg font-semibold text-slate-800 dark:text-slate-100">
-                  San Jose State University: SJHacks 2025
-                </h3>
+                <div className="flex items-center space-x-3">
+                  <img src="/sjhacks.png" alt="SJHacks" className="w-8 h-8 rounded" />
+                  <h3 className="text-lg font-semibold text-slate-800 dark:text-slate-100">
+                    San Jose State University: SJHacks 2025
+                  </h3>
+                </div>
               </div>
               <p className="text-slate-600 dark:text-slate-300 text-sm mb-2">
                 April 2025
               </p>
-              <p className="text-slate-700 dark:text-slate-200">
+              <p className="text-slate-700 dark:text-slate-200 mb-4">
                 Built QuakeSafe, an AI-powered mobile app that enhances earthquake safety by using computer vision to detect structural hazards and pinpoint high-risk areas within cities.
               </p>
+              <div className="flex space-x-4">
+                <a 
+                  href="https://github.com/adarshm11/QuakeSafe" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 font-medium text-sm transition-colors duration-200"
+                >
+                  Code
+                </a>
+                <a 
+                  href="https://devpost.com/software/quakesafe" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 font-medium text-sm transition-colors duration-200"
+                >
+                  Devpost
+                </a>
+              </div>
             </div>
 
             <div className="bg-gradient-to-r from-teal-50 to-cyan-50 dark:from-slate-700 dark:to-slate-600 rounded-xl p-6 border border-teal-200 dark:border-slate-600">
               <div className="flex items-center justify-between mb-3">
-                <h3 className="text-lg font-semibold text-slate-800 dark:text-slate-100">
-                  San Francisco State University: SFHacks 2025
-                </h3>
+                <div className="flex items-center space-x-3">
+                  <img src="/sfhacks.jpeg" alt="SFHacks" className="w-8 h-8 rounded" />
+                  <h3 className="text-lg font-semibold text-slate-800 dark:text-slate-100">
+                    San Francisco State University: SFHacks 2025
+                  </h3>
+                </div>
               </div>
               <p className="text-slate-600 dark:text-slate-300 text-sm mb-2">
                 April 2025
               </p>
-              <p className="text-slate-700 dark:text-slate-200">
+              <p className="text-slate-700 dark:text-slate-200 mb-4">
                 Developed Syll.ai, a web platform designed to scrape academic syllabi and extract key information, streamlining access to essential class details for students.
               </p>
+              <div className="flex space-x-4">
+                <a 
+                  href="https://github.com/DanielYRoh/syllabus-scraper" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300 font-medium text-sm transition-colors duration-200"
+                >
+                  Code
+                </a>
+                <a 
+                  href="https://devpost.com/software/syll-ai" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300 font-medium text-sm transition-colors duration-200"
+                >
+                  Devpost
+                </a>
+              </div>
             </div>
           </div>
         );
@@ -130,24 +204,32 @@ export default function About() {
       case 'education':
         return (
           <div className="space-y-6">
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between p-6 bg-gradient-to-r from-cyan-50 to-blue-50 dark:from-slate-700 dark:to-slate-600 rounded-xl border border-cyan-200 dark:border-slate-600">
-              <div>
-                <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-100 mb-1">
-                  Bachelor of Science in Computer Engineering
-                </h3>
-                <p className="text-slate-600 dark:text-slate-300 font-medium">
-                  San Jose State University
-                </p>
-                <p className="text-slate-500 dark:text-slate-400 text-sm">
-                  GPA: 3.9/4.0
-                </p>
+            <a 
+              href="https://www.sjsu.edu/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block flex flex-col md:flex-row md:items-center md:justify-between p-6 bg-gradient-to-r from-cyan-50 to-blue-50 dark:from-slate-700 dark:to-slate-600 rounded-xl border border-cyan-200 dark:border-slate-600 hover:shadow-lg transition-all duration-200 transform hover:scale-99"
+            >
+              <div className="flex items-center space-x-4">
+                <img src="/sjsulogo.png" alt="SJSU" className="w-12 h-12 rounded" />
+                <div>
+                  <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-100 mb-1">
+                    Bachelor of Science in Computer Engineering
+                  </h3>
+                  <p className="text-slate-600 dark:text-slate-300 font-medium">
+                    San Jose State University
+                  </p>
+                  <p className="text-slate-500 dark:text-slate-400 text-sm">
+                    GPA: 3.9/4.0
+                  </p>
+                </div>
               </div>
               <div className="text-right mt-2 md:mt-0">
                 <p className="text-slate-600 dark:text-slate-300 font-medium">
                   Expected Graduation: December 2027
                 </p>
               </div>
-            </div>
+            </a>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="p-4 bg-cyan-50 dark:bg-slate-700 rounded-lg border border-cyan-200 dark:border-slate-600">
@@ -355,6 +437,13 @@ export default function About() {
               </div>
               <span className="text-slate-800 dark:text-slate-100 font-medium">Docker</span>
             </div>
+
+            <div className="flex items-center space-x-3 p-3 bg-yellow-50 dark:bg-slate-700 rounded-lg hover:bg-yellow-100 dark:hover:bg-slate-600 transition-colors border border-yellow-200 dark:border-slate-600">
+              <div className="w-8 h-8 bg-yellow-500 rounded flex items-center justify-center">
+                <span className="text-white font-bold text-sm">STM</span>
+              </div>
+              <span className="text-slate-800 dark:text-slate-100 font-medium">STM32</span>
+            </div>
           </div>
         );
 
@@ -369,10 +458,10 @@ export default function About() {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-800 dark:text-slate-100 mb-4">
-            🌊 About Me
+            About Me
           </h1>
           <p className="text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
-            Dive into my journey, experiences, and skills. 🏄‍♂️
+            My journey, experiences, and skills.
           </p>
         </div>
 
