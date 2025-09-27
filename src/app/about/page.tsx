@@ -2,6 +2,7 @@
 
 import FloatingToolbar from '../components/FloatingToolbar';
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function About() {
   const [activeTab, setActiveTab] = useState('work');
@@ -26,7 +27,7 @@ export default function About() {
             >
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
                 <div className="flex items-center space-x-3">
-                  <img src="/sjsu_COE.png" alt="SJSU COE" className="w-8 h-8 rounded" />
+                      <Image src="/sjsu_COE.png" alt="SJSU COE" width={32} height={32} className="rounded" />
                   <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-100">
                     Undergraduate Research Assistant
                   </h3>
@@ -53,7 +54,7 @@ export default function About() {
             >
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
                 <div className="flex items-center space-x-3">
-                  <img src="/scelogo.png" alt="SCE Society" className="w-8 h-8 rounded" />
+                      <Image src="/scelogo.png" alt="SCE Society" width={32} height={32} className="rounded" />
                   <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-100">
                     Software Engineering Intern
                   </h3>
@@ -79,7 +80,7 @@ export default function About() {
             >
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
                 <div className="flex items-center space-x-3">
-                  <img src="/sjsulogo2.jpeg" alt="SJSU" className="w-8 h-8 rounded" />
+                      <Image src="/sjsulogo2.jpeg" alt="SJSU" width={32} height={32} className="rounded" />
                   <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-100">
                     Software Engineering Intern
                   </h3>
@@ -106,7 +107,7 @@ export default function About() {
             >
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
                 <div className="flex items-center space-x-3">
-                  <img src="/road2org_logo.jpeg" alt="Road2 Education" className="w-8 h-8 rounded" />
+                      <Image src="/road2org_logo.jpeg" alt="Road2 Education" width={32} height={32} className="rounded" />
                   <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-100">
                     Robotics Engineering Intern
                   </h3>
@@ -132,7 +133,7 @@ export default function About() {
             <div className="bg-gradient-to-r from-cyan-50 to-blue-50 dark:from-slate-700 dark:to-slate-600 rounded-xl p-6 border border-cyan-200 dark:border-slate-600">
               <div className="flex items-center justify-between mb-3">
                 <div className="flex items-center space-x-3">
-                  <img src="/sjhacks.png" alt="SJHacks" className="w-8 h-8 rounded" />
+                      <Image src="/sjhacks.png" alt="SJHacks" width={32} height={32} className="rounded" />
                   <h3 className="text-lg font-semibold text-slate-800 dark:text-slate-100">
                     San Jose State University: SJHacks 2025
                   </h3>
@@ -167,7 +168,7 @@ export default function About() {
             <div className="bg-gradient-to-r from-teal-50 to-cyan-50 dark:from-slate-700 dark:to-slate-600 rounded-xl p-6 border border-teal-200 dark:border-slate-600">
               <div className="flex items-center justify-between mb-3">
                 <div className="flex items-center space-x-3">
-                  <img src="/sfhacks.jpeg" alt="SFHacks" className="w-8 h-8 rounded" />
+                      <Image src="/sfhacks.jpeg" alt="SFHacks" width={32} height={32} className="rounded" />
                   <h3 className="text-lg font-semibold text-slate-800 dark:text-slate-100">
                     San Francisco State University: SFHacks 2025
                   </h3>
@@ -211,7 +212,7 @@ export default function About() {
               className="block flex flex-col md:flex-row md:items-center md:justify-between p-6 bg-gradient-to-r from-cyan-50 to-blue-50 dark:from-slate-700 dark:to-slate-600 rounded-xl border border-cyan-200 dark:border-slate-600 hover:shadow-lg transition-all duration-200 transform hover:scale-99"
             >
               <div className="flex items-center space-x-4">
-                <img src="/sjsulogo.png" alt="SJSU" className="w-12 h-12 rounded" />
+                    <Image src="/sjsulogo.png" alt="SJSU" width={48} height={48} className="rounded" />
                 <div>
                   <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-100 mb-1">
                     Bachelor of Science in Computer Engineering
@@ -249,7 +250,7 @@ export default function About() {
                   Activities & Achievements
                 </h4>
                 <ul className="text-slate-600 dark:text-slate-300 text-sm space-y-1">
-                  <li>• Dean's Scholar (2 semesters)</li>
+                  <li>• Dean&apos;s Scholar (2 semesters)</li>
                   <li>• The Software and Computer Engineering Society</li>
                   <li>• Research Assistant in Distributed Systems</li>
                   <li>• Taiwanese Student Association</li>
