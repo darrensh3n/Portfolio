@@ -13,7 +13,7 @@ export default function FloatingToolbar() {
           {/* Navigation Links */}
           <Link 
             href="/" 
-            className={`flex items-center space-x-2 px-3 py-2 rounded-full transition-all duration-200 ${
+            className={`flex items-center space-x-2 px-3 py-2 rounded-full transition-all duration-200 transform hover:scale-105 ${
               pathname === '/' 
                 ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md' 
                 : 'text-slate-700 dark:text-slate-300 hover:bg-cyan-100 dark:hover:bg-slate-700'
@@ -27,7 +27,7 @@ export default function FloatingToolbar() {
 
           <Link 
             href="/about" 
-            className={`flex items-center space-x-2 px-3 py-2 rounded-full transition-all duration-200 ${
+            className={`flex items-center space-x-2 px-3 py-2 rounded-full transition-all duration-200 transform hover:scale-105 ${
               pathname === '/about' 
                 ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md' 
                 : 'text-slate-700 dark:text-slate-300 hover:bg-cyan-100 dark:hover:bg-slate-700'
@@ -47,7 +47,7 @@ export default function FloatingToolbar() {
               href="https://github.com/darrensh3n" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center justify-center w-10 h-10 rounded-full text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-cyan-100 dark:hover:bg-slate-700 transition-all duration-200"
+              className="flex items-center justify-center w-10 h-10 rounded-full text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-cyan-100 dark:hover:bg-slate-700 transition-all duration-200 transform hover:scale-110"
               title="GitHub"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -59,7 +59,7 @@ export default function FloatingToolbar() {
               href="https://linkedin.com/in/darren-shen-1a5170311" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center justify-center w-10 h-10 rounded-full text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-cyan-100 dark:hover:bg-slate-700 transition-all duration-200"
+              className="flex items-center justify-center w-10 h-10 rounded-full text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-cyan-100 dark:hover:bg-slate-700 transition-all duration-200 transform hover:scale-110"
               title="LinkedIn"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -69,7 +69,7 @@ export default function FloatingToolbar() {
 
             <a 
               href="mailto:dshen889@gmail.com" 
-              className="flex items-center justify-center w-10 h-10 rounded-full text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-cyan-100 dark:hover:bg-slate-700 transition-all duration-200"
+              className="flex items-center justify-center w-10 h-10 rounded-full text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-cyan-100 dark:hover:bg-slate-700 transition-all duration-200 transform hover:scale-110"
               title="Email"
             >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
