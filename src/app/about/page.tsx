@@ -23,7 +23,7 @@ export default function About() {
               href="https://engineering.sjsu.edu/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="block border-l-4 border-cyan-500 pl-4 p-3 rounded-lg hover:bg-cyan-50 dark:hover:bg-slate-700/50 transition-colors duration-200"
+              className="block border-l-4 border-blue-400 pl-4 p-3 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors duration-200"
             >
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
                 <div className="flex items-center space-x-3">
@@ -50,7 +50,7 @@ export default function About() {
               href="https://sce.sjsu.edu/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="block border-l-4 border-teal-500 pl-4 p-3 rounded-lg hover:bg-teal-50 dark:hover:bg-slate-700/50 transition-colors duration-200"
+              className="block border-l-4 border-cyan-500 pl-4 p-3 rounded-lg hover:bg-cyan-50 dark:hover:bg-slate-700/50 transition-colors duration-200"
             >
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
                 <div className="flex items-center space-x-3">
@@ -76,7 +76,7 @@ export default function About() {
               href="https://www.sjsu.edu/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="block border-l-4 border-blue-500 pl-4 p-3 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors duration-200"
+              className="block border-l-4 border-teal-500 pl-4 p-3 rounded-lg hover:bg-teal-50 dark:hover:bg-slate-700/50 transition-colors duration-200"
             >
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
                 <div className="flex items-center space-x-3">
@@ -100,10 +100,37 @@ export default function About() {
             </a>
 
             <a 
+              href="https://pettytairealtor.vercel.app/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block border-l-4 border-sky-500 pl-4 p-3 rounded-lg hover:bg-sky-50 dark:hover:bg-slate-700/50 transition-colors duration-200"
+            >
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
+                <div className="flex items-center space-x-3">
+                      <Image src="/PettyTaiRealtor.png" alt="SJSU" width={32} height={32} className="rounded" />
+                  <h3 className="text-xl font-semibold text-slate-800 dark:text-slate-100">
+                    Software Engineer - Real Estate Website
+                  </h3>
+                </div>
+                <span className="text-slate-500 dark:text-slate-400 text-sm">
+                  Sep 2025
+                </span>
+              </div>
+              <p className="text-slate-600 dark:text-slate-300 font-medium mb-1">
+                Independent Project | Deployed for Petty Tai Realty (brokered by Realty One Group West)
+              </p>
+              <ul className="text-slate-600 dark:text-slate-300 space-y-1">
+                <li>• Built and deployed a custom real estate website using Next.js, React, and Tailwind</li>
+                <li>• Integrated SEO optimization and metadata for professional branding</li>
+                <li>• Designed user-friendly pages for listings, agent info, and contact details</li>
+              </ul>
+            </a>
+
+            <a 
               href="https://road2.org/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="block border-l-4 border-blue-500 pl-4 p-3 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-700/50 transition-colors duration-200"
+              className="block border-l-4 border-indigo-500 pl-4 p-3 rounded-lg hover:bg-indigo-50 dark:hover:bg-slate-700/50 transition-colors duration-200"
             >
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
                 <div className="flex items-center space-x-3">
