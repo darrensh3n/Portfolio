@@ -51,7 +51,7 @@ export default function Home() {
               </a>
 
               <a
-                href="https://linkedin.com/in/darren-shen-1a5170311"
+                href="https://www.linkedin.com/in/darrensshen"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-14 h-14 rounded-full text-slate-600 dark:text-slate-400 hover:text-white dark:hover:text-white hover:bg-gradient-to-r hover:from-purple-500 hover:to-blue-600 dark:hover:bg-gradient-to-r dark:hover:from-purple-500 dark:hover:to-blue-600 transition-all duration-200 transform hover:scale-110"
@@ -594,7 +594,7 @@ export default function Home() {
               </a>
 
               <a 
-                href="https://linkedin.com/in/darren-shen-1a5170311" 
+                href="https://www.linkedin.com/in/darrensshen" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center space-x-4 p-4 bg-gradient-to-r from-indigo-50 to-purple-50 dark:from-slate-700 dark:to-slate-600 rounded-xl border border-indigo-200 dark:border-slate-600 hover:shadow-lg transition-all duration-200 transform hover:scale-105"
@@ -606,9 +606,9 @@ export default function Home() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-slate-800 dark:text-slate-100">LinkedIn</h3>
-                  <p className="text-slate-600 dark:text-slate-300">
-                    darren-shen-1a5170311
-                  </p>
+                      <p className="text-slate-600 dark:text-slate-300">
+                        darrensshen
+                      </p>
                 </div>
               </a>
 

@@ -23,14 +23,14 @@ export default function TopNavigation() {
   };
 
   return (
-    <nav className="fixed top-12 left-6 z-50">
-      <div className="bg-white/90 dark:bg-slate-800/90 backdrop-blur-md rounded-xl px-4 py-4 shadow-xl border border-white/30 dark:border-slate-600/50">
-        <div className="flex flex-col space-y-2">
+    <nav className="fixed top-12 left-4 z-50">
+        <div className="bg-white/90 dark:bg-slate-800/90 backdrop-blur-md rounded-xl px-2 py-3 shadow-xl border border-white/30 dark:border-slate-600/50">
+        <div className="flex flex-col space-y-1">
           {sections.map((section) => (
             <button
               key={section.id}
               onClick={() => scrollToSection(section.id)}
-              className={`text-sm font-medium transition-all duration-300 px-4 py-2 rounded-lg ${
+              className={`text-sm font-medium transition-all duration-300 px-2 py-1.5 rounded-lg ${
                 activeSection === section.id
                   ? 'bg-gradient-to-r from-purple-500 to-blue-600 text-white shadow-lg transform scale-105'
                   : 'text-slate-700 dark:text-slate-300 hover:text-purple-600 dark:hover:text-purple-400 hover:bg-purple-50 dark:hover:bg-slate-700 hover:shadow-md'
