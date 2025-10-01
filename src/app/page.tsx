@@ -5,18 +5,11 @@ import TopNavigation from './components/TopNavigation';
 
 export default function Home() {
 
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  };
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-purple-50 to-blue-800 dark:from-slate-900 dark:via-purple-900 dark:to-blue-900">
       <TopNavigation />
       
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-46 pb-12">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-12">
         {/* Hero Section */}
         <section id="hero" className="text-center mb-32">
           <div className="mb-8">
@@ -27,7 +20,7 @@ export default function Home() {
               Computer Engineering @ San Jose State University
             </p>
             <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-12 max-w-4xl mx-auto leading-relaxed">
-              Hi! I'm Darren Shen, an aspiring Software Engineer passionate about building scalable applications, embedded systems, and AI.
+              Hi! I&apos;m Darren Shen, an aspiring Software Engineer passionate about building scalable applications, embedded systems, and AI.
             </p>
           </div>
           
@@ -278,7 +271,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="flex-shrink-0">
-                    <Image src="/syllai.png" alt="Syll.ai" width={120} height={120} className="rounded-lg object-cover" />
+                    <Image src="/Syllai.png" alt="Syll.ai" width={120} height={120} className="rounded-lg object-cover" />
                   </div>
                 </div>
               </div>
