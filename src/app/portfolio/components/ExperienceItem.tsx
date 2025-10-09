@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 interface ExperienceItemProps {
   logoUrl: string;
@@ -27,7 +28,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
       className="flex flex-col sm:flex-row items-start gap-4 p-4 rounded-lg hover:bg-gray-50 dark:hover:bg-white/10 transition-colors group mb-8 border border-transparent hover:border-gray-200 dark:hover:border-gray-700"
     >
       <div className="w-12 h-12 flex-shrink-0">
-        <img src={logoUrl} alt={`${companyName} logo`} className="w-full h-full object-contain rounded-md" />
+        <Image src={logoUrl} alt={`${companyName} logo`} width={48} height={48} className="w-full h-full object-contain rounded-md" />
       </div>
       <div className="flex-grow">
         <div className="flex flex-col sm:flex-row justify-between sm:items-baseline">

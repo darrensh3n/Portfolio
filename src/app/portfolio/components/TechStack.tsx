@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { Marquee } from "@/components/magicui/marquee";
+import Image from "next/image";
 
 const skillsData = [
   { slug: "python", name: "Python" },
@@ -45,7 +46,7 @@ const TechCard = ({ img, name }: { img: string; name: string }) => {
       )}
     >
       <div className="flex h-12 w-12 items-center justify-center">
-        <img className="h-full w-full object-contain" alt={name} src={img} />
+        <Image className="h-full w-full object-contain" alt={name} src={img} width={48} height={48} />
       </div>
       <div className="flex flex-col">
         <figcaption className="text-center text-sm font-medium dark:text-white">

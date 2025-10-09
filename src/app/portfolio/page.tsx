@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import ExperienceItem from "./components/ExperienceItem";
 import ProjectItem from "./components/ProjectItem";
 import Head from "next/head";
@@ -156,9 +157,11 @@ const PortfolioPage = () => {
           <div className="space-y-8">
             <div className="flex items-start gap-6 p-4 rounded-lg hover:bg-gray-50 dark:hover:bg-white/10 transition-colors group border border-transparent hover:border-gray-200 dark:hover:border-gray-700">
               <div className="w-16 h-16 flex-shrink-0">
-                <img 
+                <Image 
                   src="https://community.cob.sjsu.edu/wp-content/uploads/2018/09/cropped-SJSU-Spartan-Logo.png" 
                   alt="SJSU Logo" 
+                  width={64}
+                  height={64}
                   className="w-full h-full object-contain rounded-md"
                 />
               </div>
