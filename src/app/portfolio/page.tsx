@@ -16,7 +16,7 @@ const PortfolioPage = () => {
         companyName: "SJSU College of Engineering",
         link: "https://engineering.sjsu.edu/",
         title: "SJSU College of Engineering",
-        date: "Aug 2024 - Present",
+        date: "Aug 2024 - May 2025 & Aug 2025 - Present",
         position: "Undergraduate Research Assistant",
         responsibilities: [
             "Contributed to open-source offline communication project deployed in Ukraine using Android & K-9 Mail",
@@ -73,7 +73,7 @@ const PortfolioPage = () => {
       isWinner: true,
       description: [
         "Developed GraphGuard, an AI-powered network security platform that tracks global network traffic and autonomously detects, investigates, and mitigates cyber attacks using multi-agent reasoning",
-        "Won the Customer Choice Award 🏆"
+        "Won the Best Customer Choice Award 🏆"
       ],
       links: [
         { icon: "fab fa-github", label: "Code", url: "https://github.com/RonCodes88/GraphGuard" },
@@ -92,6 +92,21 @@ const PortfolioPage = () => {
       links: [
         { icon: "fab fa-github", label: "Code", url: "https://github.com/adarshm11/QuakeSafe" },
         { icon: "fas fa-globe", label: "Devpost", url: "https://devpost.com/software/quakesafe" },
+      ],
+    },
+    {
+      logoUrl: "/calhacks12.png",
+      projectName: "A-IDE",
+      title: "A-IDE",
+      date: "2025",
+      location: "Cal Hacks 12.0 Project",
+      isWinner: false,
+      description: [
+        "Developed A-IDE, an AI-driven computer vision system that detects potential drowning incidents through real-time camera feed."
+      ],
+      links: [
+        { icon: "fab fa-github", label: "Code", url: "https://github.com/darrensh3n/-A-IDE.git" },
+        { icon: "fas fa-globe", label: "Devpost", url: "https://devpost.com/software/a-ide" },
       ],
     },
     {
@@ -183,7 +198,7 @@ const PortfolioPage = () => {
                     <ul className="space-y-1">
                       <li className="flex items-start">
                         <span className="text-gray-500 dark:text-gray-400 mr-2">–</span>
-                        <span className="text-gray-600 dark:text-gray-400 font-light flex-1">Calculus</span>
+                        <span className="text-gray-600 dark:text-gray-400 font-light flex-1">Circuit Analysis</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-gray-500 dark:text-gray-400 mr-2">–</span>
