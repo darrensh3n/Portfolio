@@ -2,7 +2,7 @@
 
 This is my personal portfolio website to showcase my projects and skills.
 
-View the live site here: [Link to deployed site]
+View the live site here: [Link to deployed site](https://darrenshen.vercel.app/)
 
 ## Features
 
