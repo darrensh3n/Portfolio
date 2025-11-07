@@ -29,10 +29,10 @@ const PortfolioPage = () => {
       companyName: "Software and Computer Engineering Society",
       link: "https://sce.sjsu.edu/",
       title: "Software and Computer Engineering Society",
-      date: "Feb 2025 - Present",
+      date: "Feb 2025 - Oct 2025",
       position: "Software Engineering Intern",
       responsibilities: [
-        "Developed STM32 firmware for GPIO control and temperature sensing on a six-wing drone",
+        "Developed C firmware for STM32 GPIO control and temperature sensing on a six-wing drone",
         "Integrated/tested sensors on STM32 boards for reliable PCB-based system performance"
       ],
     },
@@ -44,9 +44,9 @@ const PortfolioPage = () => {
       date: "Jun 2025 - Aug 2025",
       position: "Software Engineering Intern",
       responsibilities: [
-        "Built RFID access system for 100+ users with MongoDB, Node.js, and React",
+        "Built RFID door access system for 100+ users with MongoDB, Node.js, and React",
         "Secured card data with bcrypt hashing and real-time monitoring via SSEs",
-        "Deployed the website with Docker"
+        "Deployed the website with Docker and Nginx"
       ],
     },
     {
@@ -220,7 +220,7 @@ const PortfolioPage = () => {
                     <ul className="space-y-1">
                       <li className="flex items-start">
                         <span className="text-gray-500 dark:text-gray-400 mr-2">–</span>
-                        <span className="text-gray-600 dark:text-gray-400 font-light flex-1">The Software and Computer Engineering Society</span>
+                        <span className="text-gray-600 dark:text-gray-400 font-light flex-1">The Software and Computer Engineering Society (Officer)</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-gray-500 dark:text-gray-400 mr-2">–</span>
